@@ -61,6 +61,7 @@ h6, p, a, del, mark, #write p, #write a, #write del, #write mark, #write ul, #wr
 
 #write p {
     line-height: 1.6rem;
+    text-align: justify;
     font-size: 14px;
 }
 
@@ -532,4 +533,8 @@ footer {
 
 .file-tree-node.active>.file-node-content {
     color: #2d7bf4;
+}
+
+.md-heading, .md-p, .md-table {
+    white-space: normal !important;
 }

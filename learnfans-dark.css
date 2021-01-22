@@ -221,7 +221,7 @@ body {
 
 #write p {
     line-height: 1.6rem;
-    word-spacing: .05rem;
+    text-align: justify;
     color: #cccccc;
 }
 
@@ -823,4 +823,8 @@ html{
 
 .ty-preferences .search-hit {
     background: var(--select-text-bg-color)
+}
+
+.md-heading, .md-p, .md-table {
+    white-space: normal !important;
 }
